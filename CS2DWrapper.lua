@@ -18,12 +18,8 @@
 -- Therefore it is recommended to use the wrapper functions.     --
 --                                                               --
 -- Use the following line to include the wrapper in your script: --
---if cs2dwrapper~=true then dofile("sys/lua/cs2dwrapper.lua") end--
+--   if cs2d~=true then dofile("sys/lua/cs2dwrapper.lua") end    --
 -------------------------------------------------------------------
-
--- Set Wrapper state to LOADED/TRUE!
--- This flag can be used to check if the wrapper has already been loaded
-cs2dwrapper = true
 
 -- Functions
 cs2d = {}
