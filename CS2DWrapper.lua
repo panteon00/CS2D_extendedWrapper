@@ -18,8 +18,10 @@
 -- Therefore it is recommended to use the wrapper functions.     --
 --                                                               --
 -- Use the following line to include the wrapper in your script: --
---   if cs2d~=true then dofile("sys/lua/cs2dwrapper.lua") end    --
+--   dofile("sys/lua/cs2dwrapper.lua")                           --
 -------------------------------------------------------------------
+
+if cs2d then return end
 
 -- Functions
 cs2d = {}
